@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+
+/* Active state (when the button is clicked) */
+ .button{
+  color: #0072BC;
+ }
+
+.button:hover {
+  background-color: #0072BC;
+  color: white;
+}
+
+
+
+.container{
+  width: 12%;
+  border: 1px solid black;
+
+}
+
+.btn-gap{
+  margin-left: 0.56rem;
+  width: 9.0625rem;
+}
+
+.main-navbar{
+  height: 4.875rem;
+  border: 1px solid black;
+
+}
+
+.family{
+  font-family: 'DM_Sans-Regular',Helvetical;
 }

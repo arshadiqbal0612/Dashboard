@@ -1,0 +1,16 @@
+.search-bar{
+    background-color: #F3F7FA;
+    border-radius: 0.5rem;
+}
+.search-bar input {
+    background-color: #F3F7FA;
+
+}
+
+.max-w-s{
+    width: 18.125rem;
+    
+}
+.ar{
+    background-color: red;
+}
